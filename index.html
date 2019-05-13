@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/jensenfavicon.png" type="image/x-icon">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/javascript.js"></script>
+    <title>Blad Steen Schaar</title>
+</head>
+<body>
+
+    <table id="navbar">
+        <tr id="links">
+            <td><a href="index.html">Home</a></td>
+        </tr>
+        <tr id="links">
+            <td><a href="/html/spelregels.html">Spelregels</a></td>
+        </tr>
+        <tr>
+            <td class="td"></td>
+            <td><h1>Blad, Steen, Schaar</h1></td>
+            <td class="td"></td>
+        </tr>
+    </table>
+
+    <h1 id="titelscoreboard">Scoreboard</h1>
+    <table id="scoreboard">
+        <tr>
+            <td><h3 id="gebruiker">Gebruiker</h3></td>
+            <td><p id="testa">0</p></td>
+            <td><p id="puntjes">:</p></td>
+            <td><p id="testb">0</p></td>
+            <td><h3 id="computer">Computer</h3></td>
+        </tr>
+    </table>
+
+    <table id="optie">
+        <tr id="keuze">
+            <td><a onclick="keuze1();" id="blad"><img src="images/blad.png"></a></td>
+            <td><a onclick="keuze2();" id="steen"><img src="images/steen.png"></a></td>
+            <td><a onclick="keuze3();" id="schaar"><img src="images/schaar.png"></a></td>
+        </tr>
+    </table>
+
+    <p id="computerskeuze"></p>
+    <p id="uitkomst"></p>
+
+</body>
+</html>
